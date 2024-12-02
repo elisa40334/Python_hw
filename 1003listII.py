@@ -1,0 +1,5 @@
+s = input()
+lists = s.split(",")
+print("\n".join(sorted(lists)))
+print("\n".join(sorted(lists,reverse=True)))
+print("\n".join(sorted(set(lists),reverse=True)))
